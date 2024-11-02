@@ -10,7 +10,7 @@ export default function SideBar() {
           src={"/enoverlab_logo_white.png"}
           width={150}
           height={0}
-          alt="Enoverlab"
+          alt="Enoverlab Logo"
         />
       </Link>
 
