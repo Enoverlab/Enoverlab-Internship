@@ -39,7 +39,7 @@ export default function CareerField() {
   return (
     <section
       id="Our Career Fields"
-      className="mt-14 bg-primary-300 font-plus-jakarta-sans"
+      className="bg-primary-300 font-plus-jakarta-sans"
     >
       <MaxWidth className="py-[50px]">
         <div className="mx-auto w-full max-w-[640px] text-center">

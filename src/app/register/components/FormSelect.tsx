@@ -37,13 +37,6 @@ const FormSelect: FC<FormSelectProps> = ({
             </option>
           ))}
         </select>
-
-        <button
-          className="absolute right-1 top-1/2 z-10 h-[40px] -translate-y-1/2 bg-white pe-3"
-          type="button"
-        >
-          <DropdownSVG className="size-3" />
-        </button>
       </div>
     </label>
   );
