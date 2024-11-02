@@ -116,9 +116,9 @@ const CodeOfConductModal = ({
   const [loading, setLoading] = useState(false);
 
   return (
-    <section className="fixed inset-0 z-10 flex items-center justify-center bg-[#D9D9D9]/50 p-5">
+    <section className="fixed inset-0 z-10 flex items-center justify-center bg-[#D9D9D9]/50 px-2.5 py-5">
       <div
-        className="relative flex h-fit max-h-[90vh] w-full max-w-[950px] flex-col gap-10 overflow-auto rounded-lg border bg-white px-6 py-12 text-black md:px-10 md:pt-20 ipad:px-16 ipad:pt-28"
+        className="relative flex h-fit max-h-[90vh] w-full max-w-[950px] flex-col gap-10 overflow-auto rounded-lg border bg-white px-3.5 py-12 text-black sm:px-6 md:px-10 md:pt-20 ipad:px-16 ipad:pt-28"
         ref={ref}
       >
         <button
@@ -180,7 +180,7 @@ const CodeOfConductModal = ({
                 {TABLE?.map(({ week, data }, index) => (
                   <tr key={index}>
                     <TableData>{week}</TableData>
-                    <TableData className="list-item list-none px-6">
+                    <TableData className="list-item list-none sm:px-6">
                       {data.map((data, index) => (
                         <li key={index} className="mt-1.5">
                           {data}
@@ -205,7 +205,7 @@ const CodeOfConductModal = ({
             }}
             disabled={loading}
           >
-            {loading ? <CustomBounceAnimation className="bg-white" /> : "Next"}
+            {loading ? <CustomBounceAnimation className="bg-white" /> : "Agree"}
           </FormButton>
         </div>
       </div>
