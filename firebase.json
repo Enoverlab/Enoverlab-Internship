@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "site": "enoverlab-internship",
+    "public": "out",
+    "cleanUrls": true,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+				{
+					"source": "**",
+					"function": "nextjs-server"
+				}
+      ]
+  }
+}
